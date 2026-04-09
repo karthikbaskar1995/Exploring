@@ -1,4 +1,4 @@
-# UEFI Beginner Projects
+# UEFI Fundamental Projects
 
 This repository contains 5 simple UEFI applications built using EDK2.
 Each project demonstrates a core UEFI concept.
