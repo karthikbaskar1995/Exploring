@@ -1,0 +1,16 @@
+[Defines]
+  INF_VERSION = 0x00010006
+  BASE_NAME = SystemInfo
+  FILE_GUID = 22222222-2222-2222-2222-222222222222
+  MODULE_TYPE = UEFI_APPLICATION
+  ENTRY_POINT = UefiMain
+
+[Sources]
+  SystemInfo.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiApplicationEntryPoint
