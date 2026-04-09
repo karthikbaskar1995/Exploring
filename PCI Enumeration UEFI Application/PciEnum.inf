@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION = 0x00010006
+  BASE_NAME   = PciEnum
+  FILE_GUID   = 77777777-7777-7777-7777-777777777777
+  MODULE_TYPE = UEFI_APPLICATION
+  ENTRY_POINT = UefiMain
+
+[Sources]
+  PciEnum.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiApplicationEntryPoint
+  UefiBootServicesTableLib
